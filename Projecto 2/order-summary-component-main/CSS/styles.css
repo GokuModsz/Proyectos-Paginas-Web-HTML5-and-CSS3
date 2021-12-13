@@ -1,0 +1,129 @@
+:root
+{
+    --pale-blue:        hsl(225, 100%, 94%);
+    --bright-blue:      hsl(245, 75%, 52%);
+    --very-pale-blue:   hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue:        hsl(223, 47%, 23%);
+}
+
+*
+{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body 
+{
+    margin: 0;
+    padding: 50px; 
+    background: var(--pale-blue) url(/images/pattern-background-desktop.svg) repeat-x;
+}
+
+h1
+{
+    text-align: center;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+p
+{
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0 4.81em;
+    font-size: 16px;
+    color: var(--desaturated-blue);
+    text-align: center;
+}
+
+.card-music
+{
+    width: 353px;
+    height: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+}
+
+.parrafo-1
+{
+    margin-left: -20%;
+    margin-top: -11px;
+}
+
+.icon
+{
+    margin: 23px 21px;
+}
+
+h2 
+{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--dark-blue);
+    font-size: 17px;
+    margin-top: -80px;
+    margin-left: -17.5%;
+}
+
+.link
+{
+    display: block;
+    float: right;
+    margin-top: -50px;
+    margin-right: 23px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.container-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    border: 1px solid var(--very-pale-blue);
+    background-color: white;
+    width: 450px;
+    height: 697px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.botones
+{
+    text-align: center;
+}
+
+.pay
+{
+    background-color: var(--bright-blue);
+    border-style: none;
+    color: var(--very-pale-blue);
+    width: 353px;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 33px;
+}
+
+.cancel
+{
+    background-color: white;
+    color: var(--desaturated-blue);
+    width: 353px;
+    height: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    border-style: none;
+    font-size: 16px;
+    margin-top: 33px;
+}
